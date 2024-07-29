@@ -69,6 +69,7 @@ def python(text='is cool'):
     formatted_text = text.replace('_', ' ')
     return f'Python {formatted_text}'
 
+
 if __name__ == '__main__':
     """
     Run the Flask app (only if this file is being run directly).
