@@ -3,7 +3,9 @@
 This script starts a Flask web application.
 
 Modules:
-    2-c_hbnb_route contains the definition of the Flask app and its routes
+    3-python_route.py contains the definition of the Flask app and its routes
+
+--listens on 0.0.0.0, port 5000
 
 Routes:
     /: Displays 'Hello HBNB!'
