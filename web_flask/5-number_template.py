@@ -75,7 +75,7 @@ def python(text):
 @app.route('/number/<int:n>', strict_slashes=False)  # route decorator
 def number(n):
     """
-    Return formatted string: 'n is a number' only if n is an integer
+    Return formatted string: Returns 'n is a number' if n is an integer
 
     Args:
         n: The number to check.
@@ -91,7 +91,7 @@ def number(n):
 def number_template(n):
     """
     Return an HTML page only if n is an integer
-    with H1 tag: 'Number: n' inside the HTML body tag
+    with H1 tag 'Number: n' inside the HTML body tag
 
     Args:
         n (int): The number to display in the HTML page.
@@ -107,4 +107,4 @@ if __name__ == '__main__':
     """
     Run the Flask app (only if this file is being run directly).
     """
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
